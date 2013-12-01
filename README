@@ -1,0 +1,11 @@
+==Design Choices==
+
+The problem is well known in cryptography as the generation of large prime numbers for RSA asymmetric encryption.
+Truncatables are sub-set of prime numbers that can be computed via a recursive approach.
+
+==Compilation==
+The source code was developed with CodeBlocks on an Ubuntu machine with Boost libraries and OpenMP flags enabled.
+
+==TO DO==
+I didn't have time to implement a multi-thread implementation of the sieve block function.
+
